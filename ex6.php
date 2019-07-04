@@ -14,3 +14,4 @@
     $n2 = (float) fgets(STDIN);
     $somatoria = soma($n1,$n2);
     print " A somatória dos valores entre ".$n1." e ".$n2." é igual há: ".$somatoria;
+
