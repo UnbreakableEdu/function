@@ -1,7 +1,8 @@
 <?php
 
     function soma($n1,$n2){
-        for($i==$n1 ; $i<=$n2 ; $i++){
+        $somatoria=0;
+        for($i=$n1 ; $i<=$n2 ; $i++){
             $somatoria+=$i;
         }
         return $somatoria;
