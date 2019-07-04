@@ -1,12 +1,12 @@
 <?php
 
     function resto($x,$y){
-        if($y%$x==0){
-            $valor=$y/$x;
-            $media="$y é divisível por $x, e o resultado é: $valor";
+        if($x%$y==0){
+            $valor=$x/$y;
+            $media="$x é divisível por $y, e o resultado é: $valor";
         }else{
-            $valor=$y/$x;
-            $media="$y não é divisível por $x, e o resultado é: $valor";
+            $valor=$x/$y;
+            $media="$x não é divisível por $y, e o resultado é: $valor";
         }
         return $media;
     }
